@@ -16,9 +16,10 @@ const PostFooter = ({handleGoing, post, openCommentSheet}) => {
         top: 12,
       }}>
       <Text style={{color: 'white', fontWeight: '600', marginTop: 3}}>
-        {post.users_going.length.toLocaleString('en') > 999
+        {/* {post.users_going.length.toLocaleString('en') > 999
           ? '999+'
-          : post.users_going.length.toLocaleString('en')}
+          : post.users_going.length.toLocaleString('en')} */}
+        2
       </Text>
     </View>
   );
